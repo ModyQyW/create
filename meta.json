@@ -1,126 +1,126 @@
 [
   {
-    "name": "vue-naive",
-    "desc": "✅ vue + naive-ui 模板，适用于开发桌面网页和桌面应用"
+    "value": "vue-naive",
+    "description": "✅ vue + naive-ui | desktop webs & apps"
   },
   {
-    "name": "vue-ep",
-    "desc": "vue + element-plus 模板，适用于开发桌面网页和桌面应用"
+    "value": "vue-ep",
+    "description": "vue + element-plus | desktop webs & apps"
   },
   {
-    "name": "vue-antdv",
-    "desc": "vue + ant-design-vue 模板，适用于开发桌面网页和桌面应用"
+    "value": "vue-antdv",
+    "description": "vue + ant-design-vue | desktop webs & apps"
   },
   {
-    "name": "vue-arco",
-    "desc": "vue + @arco-design/web-vue 模板，适用于开发桌面网页和桌面应用"
+    "value": "vue-arco",
+    "description": "vue + @arco-design/web-vue | desktop webs & apps"
   },
   {
-    "name": "vue-tdesign",
-    "desc": "vue + tdesign-vue-next 模板，适用于开发桌面网页和桌面应用"
+    "value": "vue-tdesign",
+    "description": "vue + tdesign-vue-next | desktop webs & apps"
   },
   {
-    "name": "vue-vuetify",
-    "desc": "✅ vue + vuetify 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+    "value": "vue-vuetify",
+    "description": "✅ vue + vuetify | desktop webs & apps, mobile webs & apps"
   },
   {
-    "name": "vue-varlet",
-    "desc": "✅ vue + varlet 模板，适用于开发移动页面和移动应用"
+    "value": "vue-varlet",
+    "description": "✅ vue + varlet | mobile webs & apps"
   },
   {
-    "name": "vue-prime",
-    "desc": "vue + primevue 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+    "value": "vue-prime",
+    "description": "vue + primevue | desktop webs & apps, mobile webs & apps"
   },
   {
-    "name": "vue-vant",
-    "desc": "✅ vue + vant 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+    "value": "vue-vant",
+    "description": "✅ vue + vant | desktop webs & apps, mobile webs & apps"
   },
   {
-    "name": "vue-nut",
-    "desc": "✅ Vue + @nutui/nutui 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+    "value": "vue-nut",
+    "description": "✅ vue + @nutui/nutui | desktop webs & apps, mobile webs & apps"
   },
   {
-    "name": "vue-tdesignm",
-    "desc": "vue + tdesign-mobile-vue 模板，适用于开发移动网页和移动应用"
+    "value": "vue-tdesignm",
+    "description": "vue + tdesign-mobile-vue | mobile webs & apps"
   },
   {
-    "name": "vue-uni",
-    "desc": "✅ vue + uni-app 模板，适用于开发移动应用和小程序"
+    "value": "vue-uni",
+    "description": "✅ vue + uni-app | mobile apps, miniprograms"
   },
   {
-    "name": "vitepress",
-    "desc": "✅ vitepress 模板，适用于开发文档"
+    "value": "vitepress",
+    "description": "✅ vitepress | docs"
   },
   {
-    "name": "react-antd",
-    "desc": "✅ react + antd 模板，适用于开发桌面网页和桌面应用"
+    "value": "react-antd",
+    "description": "✅ react + antd | desktop webs & apps"
   },
   {
-    "name": "react-arco",
-    "desc": "react + @arco-design/web-react 模板，适用于开发桌面网页和桌面应用"
+    "value": "react-arco",
+    "description": "react + @arco-design/web-react | desktop webs & apps"
   },
   {
-    "name": "react-tdesign",
-    "desc": "react + tdesign-react 模板，适用于开发桌面网页和桌面应用"
+    "value": "react-tdesign",
+    "description": "react + tdesign-react | desktop webs & apps"
   },
   {
-    "name": "react-mui",
-    "desc": "✅ react + mui 模板，适用于开发桌面网页、桌面应用、移动页面、移动应用"
+    "value": "react-mui",
+    "description": "✅ react + mui | desktop webs & apps, mobile webs & apps"
   },
   {
-    "name": "react-prime",
-    "desc": "react + primereact 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+    "value": "react-prime",
+    "description": "react + primereact | desktop webs & apps, mobile webs & apps"
   },
   {
-    "name": "react-mantine",
-    "desc": "react + mantine 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+    "value": "react-mantine",
+    "description": "react + mantine | desktop webs & apps, mobile webs & apps"
   },
   {
-    "name": "react-antdm",
-    "desc": "✅ react + antd-mobile 模板，适用于开发移动页面和移动应用"
+    "value": "react-antdm",
+    "description": "✅ react + antd-mobile | mobile webs & apps"
   },
   {
-    "name": "react-arcom",
-    "desc": "react + @arco-design/mobile-react 模板，适用于开发移动页面和移动应用"
+    "value": "react-arcom",
+    "description": "react + @arco-design/mobile-react | mobile webs & apps"
   },
   {
-    "name": "react-tdesignm",
-    "desc": "react + tdesign-mobile-react 模板，适用于开发移动页面和移动应用"
+    "value": "react-tdesignm",
+    "description": "react + tdesign-mobile-react | mobile webs & apps"
   },
   {
-    "name": "react-vant",
-    "desc": "✅ react + react-vant 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+    "value": "react-vant",
+    "description": "✅ react + react-vant | desktop webs & apps, mobile webs & apps"
   },
   {
-    "name": "react-nut",
-    "desc": "react + @nutui/nutui-react 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+    "value": "react-nut",
+    "description": "react + @nutui/nutui-react | desktop webs & apps, mobile webs & apps"
   },
   {
-    "name": "react-taro",
-    "desc": "✅ react + taro 模板，适用于开发小程序"
+    "value": "react-taro",
+    "description": "✅ react + taro | miniprograms"
   },
   {
-    "name": "rspress",
-    "desc": "✅ rspress 模板，适用于开发文档"
+    "value": "rspress",
+    "description": "✅ rspress | docs"
   },
   {
-    "name": "docusaurus",
-    "desc": "docusaurus 模板，适用于开发文档"
+    "value": "docusaurus",
+    "description": "docusaurus | docs"
   },
   {
-    "name": "react-expo",
-    "desc": "✅ react + expo 模板，适用于开发移动应用"
+    "value": "react-expo",
+    "description": "✅ react + expo | mobile apps"
   },
   {
-    "name": "nest",
-    "desc": "✅ nest 模板，适用于开发中大型后端服务"
+    "value": "nest",
+    "description": "✅ nest | backend services"
   },
   {
-    "name": "midway",
-    "desc": "midway 模板，适用于开发中大型后端服务"
+    "value": "midway",
+    "description": "midway | backend services"
   },
   {
-    "name": "nitro",
-    "desc": "✅ nitro 模板，适用于开发中小型后端服务"
+    "value": "nitro",
+    "description": "✅ nitro | light backend services"
   }
 ]

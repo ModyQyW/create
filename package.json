@@ -15,15 +15,16 @@
     "modyqyw-create": "./dist/cli.mjs"
   },
   "scripts": {
-    "build": "unbuild"
+    "build": "unbuild",
+    "prepublishOnly": "pnpm run build"
   },
   "files": [
     "dist"
   ],
   "dependencies": {
-    "@listr2/prompt-adapter-enquirer": "^1.0.2",
+    "@inquirer/prompts": "^3.3.0",
+    "@listr2/prompt-adapter-inquirer": "^1.0.2",
     "consola": "^3.2.3",
-    "enquirer": "^2.4.1",
     "execa": "^8.0.1",
     "got": "^13.0.0",
     "listr2": "^7.0.2",
@@ -32,6 +33,7 @@
     "update-notifier": "^7.0.0"
   },
   "devDependencies": {
+    "@inquirer/type": "^1.1.5",
     "@tsconfig/node20": "^20.1.2",
     "@types/node": "^20.9.0",
     "@types/semver": "^7.5.5",
