@@ -1,7 +1,7 @@
 [
   {
-    "value": "vue-naive",
-    "description": "✅ vue + naive-ui | desktop webs & apps"
+    "value": "✅ vue-naive",
+    "description": "vue + naive-ui | desktop webs & apps"
   },
   {
     "value": "vue-ep",
@@ -12,7 +12,7 @@
     "description": "vue + ant-design-vue | desktop webs & apps"
   },
   {
-    "value": "vue-arco",
+    "value": "✅ vue-arco",
     "description": "vue + @arco-design/web-vue | desktop webs & apps"
   },
   {
@@ -20,43 +20,43 @@
     "description": "vue + tdesign-vue-next | desktop webs & apps"
   },
   {
-    "value": "vue-vuetify",
-    "description": "✅ vue + vuetify | desktop webs & apps, mobile webs & apps"
+    "value": "✅ vue-vuetify",
+    "description": "vue + vuetify | desktop webs & apps, mobile webs & apps"
   },
   {
-    "value": "vue-varlet",
-    "description": "✅ vue + varlet | mobile webs & apps"
+    "value": "✅ vue-varlet",
+    "description": "vue + varlet | mobile webs & apps"
   },
   {
     "value": "vue-prime",
     "description": "vue + primevue | desktop webs & apps, mobile webs & apps"
   },
   {
-    "value": "vue-vant",
-    "description": "✅ vue + vant | desktop webs & apps, mobile webs & apps"
+    "value": "✅ vue-vant",
+    "description": "vue + vant | desktop webs & apps, mobile webs & apps"
   },
   {
-    "value": "vue-nut",
-    "description": "✅ vue + @nutui/nutui | desktop webs & apps, mobile webs & apps"
+    "value": "✅ vue-nut",
+    "description": "vue + @nutui/nutui | desktop webs & apps, mobile webs & apps"
   },
   {
     "value": "vue-tdesignm",
     "description": "vue + tdesign-mobile-vue | mobile webs & apps"
   },
   {
-    "value": "vue-uni",
-    "description": "✅ vue + uni-app | mobile apps, miniprograms"
+    "value": "✅ vue-uni",
+    "description": "vue + uni-app | mobile apps, miniprograms"
   },
   {
-    "value": "vitepress",
-    "description": "✅ vitepress | docs"
+    "value": "✅ vitepress",
+    "description": "vitepress | docs"
   },
   {
-    "value": "react-antd",
-    "description": "✅ react + antd | desktop webs & apps"
+    "value": "✅ react-antd",
+    "description": "react + antd | desktop webs & apps"
   },
   {
-    "value": "react-arco",
+    "value": "✅ react-arco",
     "description": "react + @arco-design/web-react | desktop webs & apps"
   },
   {
@@ -64,8 +64,8 @@
     "description": "react + tdesign-react | desktop webs & apps"
   },
   {
-    "value": "react-mui",
-    "description": "✅ react + mui | desktop webs & apps, mobile webs & apps"
+    "value": "✅ react-mui",
+    "description": "react + mui | desktop webs & apps, mobile webs & apps"
   },
   {
     "value": "react-prime",
@@ -76,8 +76,8 @@
     "description": "react + mantine | desktop webs & apps, mobile webs & apps"
   },
   {
-    "value": "react-antdm",
-    "description": "✅ react + antd-mobile | mobile webs & apps"
+    "value": "✅ react-antdm",
+    "description": "react + antd-mobile | mobile webs & apps"
   },
   {
     "value": "react-arcom",
@@ -88,39 +88,39 @@
     "description": "react + tdesign-mobile-react | mobile webs & apps"
   },
   {
-    "value": "react-vant",
-    "description": "✅ react + react-vant | desktop webs & apps, mobile webs & apps"
+    "value": "✅ react-vant",
+    "description": "react + react-vant | desktop webs & apps, mobile webs & apps"
   },
   {
     "value": "react-nut",
     "description": "react + @nutui/nutui-react | desktop webs & apps, mobile webs & apps"
   },
   {
-    "value": "react-taro",
-    "description": "✅ react + taro | miniprograms"
+    "value": "✅ react-taro",
+    "description": "react + taro | miniprograms"
   },
   {
-    "value": "rspress",
-    "description": "✅ rspress | docs"
+    "value": "✅ rspress",
+    "description": "rspress | docs"
   },
   {
     "value": "docusaurus",
     "description": "docusaurus | docs"
   },
   {
-    "value": "react-expo",
-    "description": "✅ react + expo | mobile apps"
+    "value": "✅ react-expo",
+    "description": "react + expo | mobile apps"
   },
   {
     "value": "nest",
-    "description": "✅ nest | backend services"
+    "description": "nest | backend services"
   },
   {
     "value": "midway",
     "description": "midway | backend services"
   },
   {
-    "value": "nitro",
-    "description": "✅ nitro | light backend services"
+    "value": "✅ nitro",
+    "description": "nitro | light-weighted backend services"
   }
 ]
