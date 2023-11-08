@@ -1,0 +1,126 @@
+[
+  {
+    "name": "vue-naive",
+    "desc": "✅ vue + naive-ui 模板，适用于开发桌面网页和桌面应用"
+  },
+  {
+    "name": "vue-ep",
+    "desc": "vue + element-plus 模板，适用于开发桌面网页和桌面应用"
+  },
+  {
+    "name": "vue-antdv",
+    "desc": "vue + ant-design-vue 模板，适用于开发桌面网页和桌面应用"
+  },
+  {
+    "name": "vue-arco",
+    "desc": "vue + @arco-design/web-vue 模板，适用于开发桌面网页和桌面应用"
+  },
+  {
+    "name": "vue-tdesign",
+    "desc": "vue + tdesign-vue-next 模板，适用于开发桌面网页和桌面应用"
+  },
+  {
+    "name": "vue-vuetify",
+    "desc": "✅ vue + vuetify 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+  },
+  {
+    "name": "vue-varlet",
+    "desc": "✅ vue + varlet 模板，适用于开发移动页面和移动应用"
+  },
+  {
+    "name": "vue-prime",
+    "desc": "vue + primevue 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+  },
+  {
+    "name": "vue-vant",
+    "desc": "✅ vue + vant 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+  },
+  {
+    "name": "vue-nut",
+    "desc": "✅ Vue + @nutui/nutui 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+  },
+  {
+    "name": "vue-tdesignm",
+    "desc": "vue + tdesign-mobile-vue 模板，适用于开发移动网页和移动应用"
+  },
+  {
+    "name": "vue-uni",
+    "desc": "✅ vue + uni-app 模板，适用于开发移动应用和小程序"
+  },
+  {
+    "name": "vitepress",
+    "desc": "✅ vitepress 模板，适用于开发文档"
+  },
+  {
+    "name": "react-antd",
+    "desc": "✅ react + antd 模板，适用于开发桌面网页和桌面应用"
+  },
+  {
+    "name": "react-arco",
+    "desc": "react + @arco-design/web-react 模板，适用于开发桌面网页和桌面应用"
+  },
+  {
+    "name": "react-tdesign",
+    "desc": "react + tdesign-react 模板，适用于开发桌面网页和桌面应用"
+  },
+  {
+    "name": "react-mui",
+    "desc": "✅ react + mui 模板，适用于开发桌面网页、桌面应用、移动页面、移动应用"
+  },
+  {
+    "name": "react-prime",
+    "desc": "react + primereact 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+  },
+  {
+    "name": "react-mantine",
+    "desc": "react + mantine 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+  },
+  {
+    "name": "react-antdm",
+    "desc": "✅ react + antd-mobile 模板，适用于开发移动页面和移动应用"
+  },
+  {
+    "name": "react-arcom",
+    "desc": "react + @arco-design/mobile-react 模板，适用于开发移动页面和移动应用"
+  },
+  {
+    "name": "react-tdesignm",
+    "desc": "react + tdesign-mobile-react 模板，适用于开发移动页面和移动应用"
+  },
+  {
+    "name": "react-vant",
+    "desc": "✅ react + react-vant 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+  },
+  {
+    "name": "react-nut",
+    "desc": "react + @nutui/nutui-react 模板，适用于开发桌面网页、桌面应用、移动页面和移动应用"
+  },
+  {
+    "name": "react-taro",
+    "desc": "✅ react + taro 模板，适用于开发小程序"
+  },
+  {
+    "name": "rspress",
+    "desc": "✅ rspress 模板，适用于开发文档"
+  },
+  {
+    "name": "docusaurus",
+    "desc": "docusaurus 模板，适用于开发文档"
+  },
+  {
+    "name": "react-expo",
+    "desc": "✅ react + expo 模板，适用于开发移动应用"
+  },
+  {
+    "name": "nest",
+    "desc": "✅ nest 模板，适用于开发中大型后端服务"
+  },
+  {
+    "name": "midway",
+    "desc": "midway 模板，适用于开发中大型后端服务"
+  },
+  {
+    "name": "nitro",
+    "desc": "✅ nitro 模板，适用于开发中小型后端服务"
+  }
+]

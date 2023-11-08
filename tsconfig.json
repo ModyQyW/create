@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node20",
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "module": "ESNext",
+    "target": "ES2017",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "types": ["node"]
+  }
+}

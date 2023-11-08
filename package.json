@@ -1,0 +1,48 @@
+{
+  "name": "@modyqyw/create",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "ModyQyW",
+    "email": "wurui-dev@foxmail.com",
+    "url": "https://modyqyw.github.io"
+  },
+  "type": "module",
+  "bin": {
+    "mc": "./dist/cli.mjs",
+    "modyqyw-create": "./dist/cli.mjs"
+  },
+  "scripts": {
+    "build": "unbuild"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@listr2/prompt-adapter-enquirer": "^1.0.2",
+    "consola": "^3.2.3",
+    "enquirer": "^2.4.1",
+    "execa": "^8.0.1",
+    "got": "^13.0.0",
+    "listr2": "^7.0.2",
+    "meow": "^12.1.1",
+    "semver": "^7.5.4",
+    "update-notifier": "^7.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.9.0",
+    "@types/semver": "^7.5.5",
+    "@types/update-notifier": "^6.0.7",
+    "unbuild": "^2.0.0"
+  },
+  "packageManager": "pnpm@8.10.2",
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
