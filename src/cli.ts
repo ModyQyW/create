@@ -133,12 +133,18 @@ const tasks = new Listr<Ctx>([
   },
   {
     title: "Pick a template",
+    rendererOptions: {
+      persistentOutput: true,
+    },
     task: async (ctx, task) => {
       if (
         cliFlags.template &&
-        ctx.templates.find((p) => p.name === cliFlags.template)
+        ctx.templates.find(
+          (p) => p.value.split("✅ ").at(-1) === cliFlags.template
+        )
       ) {
         ctx.template = cliFlags.template;
+        task.output = `Picked ${cliFlags.template}`;
         return task.skip();
       }
       const template = (await task
@@ -148,7 +154,7 @@ const tasks = new Listr<Ctx>([
           choices: ctx.templates,
         })) as string;
       ctx.template = template;
-      task.output = `Picked template: ${template}`;
+      task.output = `Picked ${template}`;
     },
   },
   {
