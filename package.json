@@ -1,8 +1,11 @@
 {
   "name": "@modyqyw/create",
   "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Opinionated starter templates, with CLI support.",
+  "keywords": [
+    "create",
+    "cli"
+  ],
   "license": "MIT",
   "author": {
     "name": "ModyQyW",
@@ -14,21 +17,22 @@
     "mc": "./dist/cli.mjs",
     "modyqyw-create": "./dist/cli.mjs"
   },
-  "scripts": {
-    "build": "unbuild",
-    "prepublishOnly": "pnpm run build"
-  },
   "files": [
     "dist"
   ],
+  "scripts": {
+    "build": "unbuild",
+    "prepublishOnly": "pnpm run build",
+    "release": "pnpx changelogen --release --push"
+  },
   "dependencies": {
     "@inquirer/prompts": "^3.3.0",
     "@listr2/prompt-adapter-inquirer": "^1.0.2",
+    "commander": "^11.1.0",
     "consola": "^3.2.3",
     "execa": "^8.0.1",
     "got": "^13.0.0",
     "listr2": "^7.0.2",
-    "meow": "^12.1.1",
     "semver": "^7.5.4",
     "update-notifier": "^7.0.0"
   },

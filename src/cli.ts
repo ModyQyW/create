@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import meow from "meow";
+import { Command } from "commander";
 import consola from "consola";
 import packageJson from "../package.json";
 import { Listr } from "listr2";
@@ -34,42 +34,17 @@ interface Ctx {
   template: string;
 }
 
-const cli = meow({
-  importMeta: import.meta,
-  autoHelp: false,
-  autoVersion: false,
-  flags: {
-    template: {
-      type: "string",
-      shortFlag: "t",
-    },
-    help: {
-      type: "boolean",
-      shortFlag: "h",
-    },
-    version: {
-      type: "boolean",
-      shortFlag: "v",
-    },
-  },
-  help: `
-	Usage
-	  $ mc <dir>
-	  $ modyqyw-create <dir>
-    $ pnpm create @modyqyw@latest
-
-	Options
-    --template, -t  Pick a template.
-    --help, -h      Show the help text.
-    --version, -v   Show the version text.
-`,
-});
-
-const { input: cliInput, flags: cliFlags, showHelp, showVersion } = cli;
-console.log("cliInput", cliInput);
-console.log("cliFlags", cliFlags);
-if (cliFlags.help) showHelp();
-if (cliFlags.version) showVersion();
+const program = new Command()
+  .name(packageJson.name)
+  .description(packageJson.description)
+  .version(packageJson.version)
+  .argument("<string>", "dir to pull templates")
+  .option("-t, --template <string>", "Pick a template.")
+  .parse();
+const args = program.args;
+const opts = program.opts();
+// console.log("args", program.args);
+// console.log("opts", program.opts());
 
 const installLtsWithFnm = (ctx: Ctx) => {
   $`fnm install ${ctx.ltsMajor} && fnm alias ${ctx.ltsMajor} default`.catch(
@@ -138,13 +113,11 @@ const tasks = new Listr<Ctx>([
     },
     task: async (ctx, task) => {
       if (
-        cliFlags.template &&
-        ctx.templates.find(
-          (p) => p.value.split("✅ ").at(-1) === cliFlags.template
-        )
+        opts.template &&
+        ctx.templates.find((p) => p.value.split("✅ ").at(-1) === opts.template)
       ) {
-        ctx.template = cliFlags.template;
-        task.output = `Picked ${cliFlags.template}`;
+        ctx.template = opts.template;
+        task.output = `Picked ${opts.template}`;
         return task.skip();
       }
       const template = (await task
@@ -162,7 +135,7 @@ const tasks = new Listr<Ctx>([
     retry: 1,
     task: async (ctx, task) => {
       let dir =
-        cliInput[0] ||
+        args[0] ||
         (await task.prompt(ListrInquirerPromptAdapter).run(input, {
           message: "Please input a folder name",
         }));
