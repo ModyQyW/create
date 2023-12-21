@@ -1,70 +1,54 @@
 [
   {
-    "value": "✅ vue-naive",
+    "value": "vue-naive",
     "description": "vue + naive-ui | desktop webs & apps"
-  },
-  {
-    "value": "vue-ep",
-    "description": "vue + element-plus | desktop webs & apps"
   },
   {
     "value": "vue-antdv",
     "description": "vue + ant-design-vue | desktop webs & apps"
   },
   {
-    "value": "✅ vue-arco",
-    "description": "vue + @arco-design/web-vue | desktop webs & apps"
-  },
-  {
     "value": "vue-tdesign",
     "description": "vue + tdesign-vue-next | desktop webs & apps"
   },
   {
-    "value": "✅ vue-vuetify",
+    "value": "vue-vuetify",
     "description": "vue + vuetify | desktop webs & apps, mobile webs & apps"
-  },
-  {
-    "value": "✅ vue-varlet",
-    "description": "vue + varlet | mobile webs & apps"
   },
   {
     "value": "vue-prime",
     "description": "vue + primevue | desktop webs & apps, mobile webs & apps"
   },
   {
-    "value": "✅ vue-vant",
-    "description": "vue + vant | desktop webs & apps, mobile webs & apps"
+    "value": "vue-vant",
+    "description": "vue + vant | mobile webs & apps"
   },
   {
-    "value": "✅ vue-nut",
-    "description": "vue + @nutui/nutui | desktop webs & apps, mobile webs & apps"
+    "value": "vue-nut",
+    "description": "vue + @nutui/nutui | mobile webs & apps"
   },
   {
     "value": "vue-tdesignm",
     "description": "vue + tdesign-mobile-vue | mobile webs & apps"
   },
   {
-    "value": "✅ vue-uni",
+    "value": "vue-uni",
     "description": "vue + uni-app | mobile apps, miniprograms"
   },
   {
-    "value": "✅ vitepress",
+    "value": "vitepress",
     "description": "vitepress | docs"
   },
   {
-    "value": "✅ react-antd",
+    "value": "react-antd",
     "description": "react + antd | desktop webs & apps"
-  },
-  {
-    "value": "✅ react-arco",
-    "description": "react + @arco-design/web-react | desktop webs & apps"
   },
   {
     "value": "react-tdesign",
     "description": "react + tdesign-react | desktop webs & apps"
   },
   {
-    "value": "✅ react-mui",
+    "value": "react-mui",
     "description": "react + mui | desktop webs & apps, mobile webs & apps"
   },
   {
@@ -72,35 +56,27 @@
     "description": "react + primereact | desktop webs & apps, mobile webs & apps"
   },
   {
-    "value": "react-mantine",
-    "description": "react + mantine | desktop webs & apps, mobile webs & apps"
-  },
-  {
-    "value": "✅ react-antdm",
+    "value": "react-antdm",
     "description": "react + antd-mobile | mobile webs & apps"
-  },
-  {
-    "value": "react-arcom",
-    "description": "react + @arco-design/mobile-react | mobile webs & apps"
   },
   {
     "value": "react-tdesignm",
     "description": "react + tdesign-mobile-react | mobile webs & apps"
   },
   {
-    "value": "✅ react-vant",
-    "description": "react + react-vant | desktop webs & apps, mobile webs & apps"
+    "value": "react-vant",
+    "description": "react + react-vant | mobile webs & apps"
   },
   {
     "value": "react-nut",
-    "description": "react + @nutui/nutui-react | desktop webs & apps, mobile webs & apps"
+    "description": "react + @nutui/nutui-react | mobile webs & apps"
   },
   {
-    "value": "✅ react-taro",
+    "value": "react-taro",
     "description": "react + taro | miniprograms"
   },
   {
-    "value": "✅ rspress",
+    "value": "rspress",
     "description": "rspress | docs"
   },
   {
@@ -108,11 +84,11 @@
     "description": "docusaurus | docs"
   },
   {
-    "value": "✅ react-expo",
+    "value": "react-expo",
     "description": "react + expo | mobile apps"
   },
   {
-    "value": "✅ nest",
+    "value": "nest",
     "description": "nest | backend services"
   },
   {
@@ -120,7 +96,11 @@
     "description": "midway | backend services"
   },
   {
-    "value": "✅ nitro",
-    "description": "nitro | light-weighted backend services"
+    "value": "hono",
+    "description": "hono | light-weighted backend services"
+  },
+  {
+    "value": "fastify",
+    "description": "fastify | light-weighted backend services"
   }
 ]
